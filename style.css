@@ -5,6 +5,11 @@ font-family:'Poppins, sans-serif' ;
 box-sizing:border-box ;
 
 }
+html{
+scroll-behavior: smooth;
+
+
+}
 
 body{
 
@@ -425,6 +430,14 @@ flex-basis: 35%;
     }
 
     /*------------------------css for a smaller screen----------------------*/
+   nav .fas{
+    display:none;
+
+
+
+   }
+   
+   
     @media only screen and (max-width:600px){
       #header{
 
@@ -441,9 +454,13 @@ flex-basis: 35%;
 
       }
 
-
-
-
     }
       
-    
+  #msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+
+
+
+  }  
